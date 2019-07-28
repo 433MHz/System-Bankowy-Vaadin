@@ -1,0 +1,16 @@
+pl\krystian\spring\Application.class
+pl\krystian\spring\MenuView\UserMenuViewInTransactionStory.class
+pl\krystian\spring\RegisterView\RegisterViewError.class
+pl\krystian\spring\UserInterfaceView.class
+pl\krystian\spring\MenuView\UserMenuView.class
+pl\krystian\spring\MainView.class
+pl\krystian\spring\LoginView\LoginViewError.class
+pl\krystian\spring\RegisterAndLoginProcess.class
+pl\krystian\spring\MenuView\UserMenuViewOutTransactionStory.class
+pl\krystian\spring\MenuView\UserMenuViewGetTransactionStory.class
+pl\krystian\spring\RegisterView\RegisterViewErrorComparePasswords.class
+pl\krystian\spring\RegisterView\RegisterView.class
+pl\krystian\spring\LoginView\LoginView.class
+pl\krystian\spring\RegisterView\RegisterViewErrorUserExist.class
+pl\krystian\spring\RegisterView\RegisterViewLogSuccesfull.class
+pl\krystian\spring\MakeTransactionStory.class
