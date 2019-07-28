@@ -1,24 +1,10 @@
-# Project Base for Vaadin Flow and Spring Boot
+Wykonane przy użyciu freamworka spring-boot, Maven oraz Vaadin. Wygenerowane na stronie https://vaadin.com/start/latest
 
-This project can be used as a starting point to create your own Vaadin Flow application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+Aby uruchomić trzeba w Maven uzyc komendy mvn spring-boot:run a następnie w przeglądarce wejść pod adres http://localhost:8080/
 
-The best way to use it by via [vaadin.com/start](https://vaadin.com/start) - you can get only the necessary parts and choose the package naming you want to use.
+Można też uruchomić plik wykonywalny .jar w folderze target za pomocą CMD komendą "java -jar (nazwa pliku)" a następnie wejść pod adres http://localhost:8080/
 
-Import the project to the IDE of your choosing as a Maven project. 
-
-Run application using `mvn spring-boot:run` or directly running Application class from your IDE.
-
-Open http://localhost:8080/ in browser
+A jeżeli nie działa ani tak ani tak to trzeba w Intellij IDEA kliknąć file/ open / a następnie otworzyć plik pom.xml i wybrać opcje uruchomienia jako projekt. Następnie trzeba wybrać po prawej stronie zakładkę "Maven"/ rozwinąć zakładkę "Stronabankowavaadin"/ "Plugins"/ "spring-boot"/ i kliknąć 2x na opcje "spring-boot:run". Po tej czynności należy chwilę poczekać i wejść w przeglądarce pod adres http://localhost:8080/
 
 
-For documentation on using Vaadin Flow and Spring, visit [vaadin.com/docs](https://vaadin.com/docs/v10/flow/spring/tutorial-spring-basic.html)
-
-For more information on Vaadin Flow, visit https://vaadin.com/flow.
-
-Branching information:
-* `master` the latest version of the starter, using the latest platform snapshot
-* `v10` the version for Vaadin 10
-* `v11` the version for Vaadin 11
-* `v12` the version for Vaadin 12
-* `v13` the version for Vaadin 13
+Projekt nie używa baz danych ponieważ ich jeszcze nie umiem ¯\_(ツ)\_/¯
